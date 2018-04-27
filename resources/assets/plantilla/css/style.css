@@ -1,0 +1,127 @@
+html, body{
+  		font-family: 'Quicksand', sans-serif;
+  		font-size: 13px;
+  		letter-spacing: .5px;
+
+  	}
+
+  	aside{
+  		float: left;
+  		width: 18%;
+  		position: fixed;
+		padding:50px 0px;
+		background: white;
+    height: 100%;
+  	}
+  	aside img.logo{
+  		width:100%;
+  		padding:0px 50px;
+  	}
+  	aside .info-perfil{
+  		padding: 30px 50px 30px;
+  	}
+  	aside .info-perfil img{
+  		    width: 50px !important;
+    height: 50px !important;
+    border-radius: 150px;
+  	}
+  	aside .info-perfil h4{
+  		    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    display: block;
+  	}
+  	aside .info-perfil p{
+  		margin-bottom: 0;
+    font-size: 11px;
+  	}
+  	aside .info-perfil .media{
+  		border-top: 1px solid #00000017;
+    border-bottom: 1px solid #00000017;
+    padding: 20px 0px;
+  	}
+  	aside nav{
+  		padding: 0px 50px;
+  	}
+  	aside nav ul{
+  		margin:0;
+  		padding: 0;
+  		list-style: none;
+  	}
+
+  	aside nav ul li{
+  		width:100%;
+  	}
+  	aside nav ul li a{
+  		display: block;
+  	}
+	aside nav ul li a.titulo img{
+		width:10px;
+		display: inline-block;
+	}
+	aside nav ul.cat li a.titulo{
+		text-decoration: none;
+		color:black;
+	}
+	aside nav ul li ul.subcat{
+		    padding: 10px 0px 15px 10px;
+	}
+	aside nav ul li ul.subcat li a{
+		display: block;
+		padding:2.5px 0px;
+	}
+  	main{
+  		float: left;
+  		width: 82%;
+  		margin-left: 18%;
+	  }
+	.main-full{
+		width:100%;
+		margin-left: 0;
+	}
+  	main header{
+  		background: #4c4c4c;
+  		width: 100%;
+  		color:white;
+  		padding:15px 0px;
+  	}
+  	main .contenido{
+  		background: #F6F8FA;
+  		height: 100vh;
+  		padding: 14px 0px;
+  	}
+  	main .contenido .breadcrumb{
+  		margin-bottom: 10px;
+  	}
+  	main .contenido .box-contenido-titulo{
+  		background: #4c4c4c;
+    color: white;
+    padding: 10px;
+  	}
+  	main .contenido .box-contenido{
+  		    background: white;
+    padding: 20px;
+  	}
+  	main header img.nav-icon{
+  		    position: relative;
+    top: -2px;
+    /* margin-right: 5px; */
+    cursor: pointer;
+	  }
+	  main header img.activar-fullscreen{
+		  
+	  }
+	  main header img.desactivar-fullscreen{
+		display: none;
+	}
+  	main header a{
+  		color:white;
+  	}
+
+  	/**/
+  	.table{
+  		margin-bottom: 0;
+	  }
+	  .table-hover>tbody>tr:hover {
+		background-color: #f6f8fa;
+		}
