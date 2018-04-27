@@ -17,11 +17,11 @@
 	<header>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-3 text-left">
+				<div class="col-md-3 col-sm-3 col-xs-4 text-left">
 					<img src="img/menu.png" alt="" class="nav-icon">
 				</div>
-				<div class="col-md-6"></div>
-				<div class="col-md-3 text-right">
+				<div class="col-md-6 col-sm-6 col-xs-4"></div>
+				<div class="col-md-3 col-sm-3 col-xs-4 text-right">
 					<img src="img/expand.png" alt="" class="nav-icon activar-fullscreen">
 					<img src="img/full-screen-exit.png" class="nav-icon desactivar-fullscreen">
 				</div>

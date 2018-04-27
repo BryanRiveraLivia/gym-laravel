@@ -16,6 +16,7 @@ window.Vue = require('vue');
  */
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.use(require('vue-moment'));
 
 const app = new Vue({
     el: '#app',

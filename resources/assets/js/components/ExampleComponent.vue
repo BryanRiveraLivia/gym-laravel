@@ -20,7 +20,7 @@
 					<td v-text="clientes.ape_pa"></td>
 					<td v-text="clientes.ape_ma"></td>
 					<td v-text="clientes.fec_nac"></td>
-					<td v-text="clientes.created_at"></td>
+					<td>{{ moment(clientes.created_at).format('MMMM Do YYYY, h:mm:ss a') }}</td>
 				</tr>
 			</tbody>
 		</table>
@@ -29,9 +29,11 @@
 </template>
 
 <script>
+var moment = require('moment');
     export default {
         data(){
 			return{
+				moment:moment,
 				nombres:'',
 				ape_pa:'',
 				ape_ma:'',
