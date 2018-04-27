@@ -7,48 +7,59 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,700,800,900" rel="stylesheet">
-  <style>
-  /*http://www.urbanui.com/victory/index.html*/
-  	html, body{
-  		font-family: 'Montserrat', sans-serif;
-  		font-size: 13px;
-  		letter-spacing: .5px;
-
-  	}
-
-  	aside{
-  		float: left;
-  		width: 18%;
-  		position: fixed;
-
-  	}
-
-  	main{
-  		float: left;
-  		width: 82%;
-  		margin-left: 18%;
-  	}
-  	main header{
-  		background: #15bbc6;
-  		width: 100%;
-  		color:white;
-  		padding:15px 0px;
-  	}
-  	main .contenido{
-  		background: #F6F8FA;
-  		height: 100vh;
-  	}
-  	main header a{
-  		color:white;
-  	}
-  </style>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 
 <aside>
-	
+	<img src="img/logo4.png" alt="" class="logo">
+	<div class="info-perfil">
+		<!-- Media middle -->
+		<div class="media">
+		  <div class="media-left media-middle">
+		    <img src="https://loremflickr.com/50/50" class="media-object" style="width:60px">
+		  </div>
+		  <div class="media-body">
+		    <h4 class="media-heading">Hostal "Sol & Mar"</h4>
+		    <p>Lorem ipsum...</p>
+		  </div>
+		</div>
+	</div>
+	<nav>
+		<ul class="cat">
+			<li><a href="" class="titulo">ATENCIÓN</a>
+				<ul class="subcat">
+					<li><a href="">Nueva reservación</a></li>
+					<li><a href="">Gestión de reservas</a></li>
+				</ul>
+			</li>
+
+			<li><a href="" class="titulo">CLIENTES</a>
+				<ul class="subcat">
+					<li><a href="">Registrar cliente</a></li>
+					<li><a href="">Gestión de clientes</a></li>
+				</ul>
+			</li>
+
+			<li><a href="" class="titulo">HABITACIONES</a>
+				<ul class="subcat">
+					<li><a href="">Registrar habitación</a></li>
+					<li><a href="">Crear categoría de habitación</a></li>
+				</ul>
+			</li>
+
+			<li><a href="" class="titulo">TIENDA</a>
+				<ul class="subcat">
+					<li><a href="">Registrar producto</a></li>
+					<li><a href="">Crear categoría de habitación</a></li>
+				</ul>
+			</li>
+			
+
+		</ul>
+	</nav>
 </aside>
 
 <main>
@@ -56,13 +67,59 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					Hola
+					<img src="img/menu.png" alt="" class="nav-icon">
 				</div>
 			</div>
 		</div>
 	</header>
 	<div class="contenido">
-		
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					 <ol class="breadcrumb">
+					    <li><a href="#">Home</a></li>
+					    <li><a href="#">Private</a></li>
+					    <li><a href="#">Pictures</a></li>
+					    <li class="active">Vacation</li>        
+					  </ol>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="box-contenido-titulo">
+						Lista de usuarios
+					</div>
+					<div class="box-contenido">
+						<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="clear"></div>
 </main>
